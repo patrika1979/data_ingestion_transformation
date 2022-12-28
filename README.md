@@ -4,6 +4,8 @@ Case 1
 
 Source https://www.databricks.com/blog/2021/05/04/databricks-on-google-cloud-now-generally-available.html
 
+Case 2
+
 # ETL Sales Consolidation
 
 ## Contents
@@ -16,7 +18,7 @@ Source https://www.databricks.com/blog/2021/05/04/databricks-on-google-cloud-now
 
 2-Take Service account credentials
 
-	{
+{
   "type": "service_account",
   "project_id": "project_id",
   "private_key_id": "hjygygyhguyghyggi",
