@@ -71,18 +71,20 @@ spark.hadoop.fs.gs.auth.service.account.private.key.id private_key_id
 	--instance=instance_name
 
 9-Connect to database
+	
 	gcloud sql connect instance_name --user=root 
 
 10-Create database - alternative
-	```
+	
+	
 	CREATE DATABASE dados;
-	```
+	
 11-Run Databricks scripts
 
 12-Go to Shell Editor and connect to db
-```
+
 	gcloud sql connect instance_name --user=root
-```	
+	
 13-Connect to db
 
 	connect dados;
