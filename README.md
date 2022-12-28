@@ -21,10 +21,10 @@ Source https://www.databricks.com/blog/2021/05/04/databricks-on-google-cloud-now
 {
    "type": "service_account",
    "project_id": "project_id",
-   "private_key_id": "hjygygyhguyghyggi",
-   "private_key": "-----BEGIN PRIVATE KEY-----\nMIIBgQDIqFYMj00--END PRIVATE KEY-----\n",
-   "client_email": "cli-ccount-1@ihihujhujhujh.iam.gserviceaccount.com",
-   "client_id": "123131413",
+   "private_key_id": "private_key_id",
+   "private_key": "-----BEGIN PRIVATE KEY-----\private_key--END PRIVATE KEY-----\n",
+   "client_email": "cli-ccount-1@cliente_email.iam.gserviceaccount.com",
+   "client_id": "client_id",
    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
    "token_uri": "https://oauth2.googleapis.com/token",
    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
@@ -34,10 +34,10 @@ Source https://www.databricks.com/blog/2021/05/04/databricks-on-google-cloud-now
 3-In the Databricks change the spark config - https://docs.databricks.com/external-data/gcs.html
 ```
 spark.hadoop.google.cloud.auth.service.account.enable true
-spark.hadoop.fs.gs.auth.service.account.email cli-ccount-1@ihihujhujhujh.iam.gserviceaccount.com
+spark.hadoop.fs.gs.auth.service.account.email cli-ccount-1@cliente_email.iam.gserviceaccount.com
 spark.hadoop.fs.gs.project.id project_id
-spark.hadoop.fs.gs.auth.service.account.private.key ----BEGIN PRIVATE KEY-----\nMIIBgQDIqFYMj00--END PRIVATE KEY-----\n
-spark.hadoop.fs.gs.auth.service.account.private.key.id hjygygyhguyghyggi
+spark.hadoop.fs.gs.auth.service.account.private.key -----BEGIN PRIVATE KEY-----\private_key--END PRIVATE KEY-----\n
+spark.hadoop.fs.gs.auth.service.account.private.key.id private_key_id
 ```
 4- Create cluster and install the following dependencies:
 	
