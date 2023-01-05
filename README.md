@@ -8,6 +8,9 @@ Source https://www.databricks.com/blog/2021/05/04/databricks-on-google-cloud-now
 
 # Case 2
 
+## ETL Design
+![alt text](https://github.com/patrika1979/data_ingestion_transformation/blob/main/desenho_etl_databricks.png)
+
 ## ETL Sales Consolidation
 
 ### Contents
